@@ -4,6 +4,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box ;
+    scroll-behavior: smooth;
+
 }
 
 .banner-container {
@@ -57,8 +60,6 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 600;
     padding: 21px 24px 21px 24px;
@@ -251,7 +252,7 @@
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    
+
     margin-bottom: 24px;
 }
 
@@ -284,7 +285,7 @@
     width: 1076px;
     height: 550px;
     padding: 32px;
-    
+
 }
 
 /* My Insparation section end here */
@@ -337,6 +338,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 /* html card container start here */
 
 .Html-card-container {
@@ -391,21 +393,23 @@
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
-    border:none;
+    border: none;
     margin-top: 24px;
 }
+
 /* html card container end here */
 
 /* css card container start here */
 
-.css-card-container{
+.css-card-container {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     width: 364px;
     height: 300px;
     margin: 0px 24px;
-    
+
 }
+
 .css-card-item {
     height: 28.12px;
     height: 28.12px;
@@ -415,7 +419,8 @@
     margin-right: 40px;
     margin-bottom: 40px;
 }
-.css-card-item h2{
+
+.css-card-item h2 {
     width: 284px;
     height: 36px;
     color: rgb(13, 19, 33);
@@ -424,7 +429,8 @@
     font-weight: 800;
     margin-top: 24px;
 }
-.css-card-item p{
+
+.css-card-item p {
     width: 284px;
     height: 52px;
     color: rgb(13, 19, 33);
@@ -434,7 +440,8 @@
     opacity: 0.7;
     margin-top: 8px;
 }
-.css-card-item button{
+
+.css-card-item button {
     height: 20px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -444,11 +451,12 @@
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
-    border:none;
+    border: none;
     margin-top: 24px;
 }
+
 /* css card container ends here */
-.JavaScript-card-container{
+.JavaScript-card-container {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     width: 364px;
@@ -463,7 +471,8 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.javascript-card-item h2{
+
+.javascript-card-item h2 {
     width: 284px;
     height: 36px;
     color: rgb(13, 19, 33);
@@ -472,7 +481,8 @@
     font-weight: 800;
     margin-top: 24px;
 }
-.javascript-card-item p{
+
+.javascript-card-item p {
     width: 284px;
     height: 52px;
     color: rgb(13, 19, 33);
@@ -483,7 +493,7 @@
     margin-top: 8px;
 }
 
-.javascript-card-item button{
+.javascript-card-item button {
     height: 20px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -493,15 +503,55 @@
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
-    border:none;
+    border: none;
     margin-top: 24px;
 }
 
 /* my curent target section  ends here */
 
 /* footer section start here */
-.footer-container{
-    
+#footer-container {
+    width: 1140px;
+    height: 314px;
+    margin: 2px solid red;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    color:rgba(0, 0, 0, 0.2);
+
+}
+
+.footer-text-container {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 64px;
+}
+
+.footer-text-container h2 {
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+
+.footer-text-container p {
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: ;
 }
 
 /* footer section end here here */
