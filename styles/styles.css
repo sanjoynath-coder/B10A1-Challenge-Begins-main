@@ -251,6 +251,7 @@
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
+    
     margin-bottom: 24px;
 }
 
@@ -282,7 +283,218 @@
 .inspiration-video-container iframe {
     width: 1076px;
     height: 550px;
-    padding: 32px
+    padding: 32px;
+    
 }
 
 /* My Insparation section end here */
+
+/* my curent target section starts here */
+
+.curent-target-container {
+    width: 1140px;
+    height: 462px;
+    margin-top: 164px;
+}
+
+.curent-target-text-item {
+
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.curent-target-text-item h2 {
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.curent-target-text-item p {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.curent-target-card-item {
+    width: 1140px;
+    height: 300px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* html card container start here */
+
+.Html-card-container {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 300px;
+    margin: 0px 0px;
+
+}
+
+.html-card-item {
+
+    height: 28.12px;
+    height: 28.12px;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+
+.html-card-item h2 {
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.html-card-item p {
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.html-card-item button {
+    /* width: 284px; */
+    height: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border:none;
+    margin-top: 24px;
+}
+/* html card container end here */
+
+/* css card container start here */
+
+.css-card-container{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 300px;
+    margin: 0px 24px;
+    
+}
+.css-card-item {
+    height: 28.12px;
+    height: 28.12px;
+    border-radius: 16px;
+    margin-top: 40px;
+    /* margin-left: */
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.css-card-item h2{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.css-card-item p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+.css-card-item button{
+    height: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border:none;
+    margin-top: 24px;
+}
+/* css card container ends here */
+.JavaScript-card-container{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 300px;
+    margin: 0px 0px;
+}
+
+.javascript-card-item {
+    height: 28.12px;
+    height: 28.12px;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.javascript-card-item h2{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.javascript-card-item p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.javascript-card-item button{
+    height: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border:none;
+    margin-top: 24px;
+}
+
+/* my curent target section  ends here */
